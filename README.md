@@ -1,78 +1,21 @@
 # Grocery Store Program
 
-## Sample Runs
+## Overview
 
-Here are some sample runs demonstrating how the program interacts with the user:
+This program simulates the functionality of a grocery store, allowing users to:
 
-### Sample Run 1: Adding Items to Cart
+- Add and remove items from a shopping cart.
+- Check the availability of items in stock.
+- Restock inventory through an admin menu.
+- Checkout and calculate the total cost including tax.
 
-Welcome to the grocery store! Let us know how we can help you (Enter number of selection):
+## Features
 
-Add item to cart
-Remove item from cart
-Check if item is in stock
-Admin Menu
-Checkout Red number is user input: 1
-What would you like to add to cart? (Enter number of selection)
-
-Cereal
-Milk
-Syrup
-Cups Red number is user input: 1
-How many cereals would you like to add to the cart? Red number is user input: 3 You have added 3 Cereal(s) to your cart! Current total is: $14.97
-
-
-### Sample Run 2: Removing Items from Cart
-
-What would you like to remove from cart? (Enter number of selection):
-
-Cereal
-Milk
-Syrup
-Cups Red number is user input: 1
-How many cereals would you like to remove from your cart? Red number is user input: 2 Removed 2 Cereal(s) from your cart! Current total is: $9.98
-
-shell
-Copy
-Edit
-
-
-### Sample Run 3: Checking Stock Availability
-
-What item would you like to check if it's in stock? (Enter number of selection):
-
-Cereal
-Milk
-Syrup
-Cups Red number is user input: 1
-There are currently 97 cereals in stock!
-
-
-### Sample Run 4: Admin Menu - Restock Inventory
-
-Enter Admin ID: Red number is user input: 0000
-
-Welcome to the Admin menu! Let us know how we can help you (Enter number of selection):
-
-Restock inventory
-Generate report
-Check number of items
-Quit admin menu Red number is user input: 1
-What would you like to restock? (Enter number of selection):
-
-Cereal
-Milk
-Syrup
-Cups Red number is user input: 1
-How many units would you like to restock?: Red number is user input: 20 Restocked 20 units of cereal
-
-### Sample Run 5: Checkout
-
-Thanks for shopping with us! You purchased the following: Cereal: 1 Milk: 2 Your grand total including tax (9.25%) is: $24.47
-
-markdown
-Copy
-Edit
+- **Add item to cart**: Select and add items to the shopping cart.
+- **Remove item from cart**: Remove items from the cart.
+- **Check stock availability**: Check the number of items available in stock.
+- **Admin menu**: Restock inventory, generate reports, and check item quantities.
+- **Checkout**: View purchased items and total cost including tax.
 
 ## How to Run
 
